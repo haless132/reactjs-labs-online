@@ -1,0 +1,9 @@
+1 dự án App có
+-> 1 hoặc nhiều feature...
+-> 1 feature có 1 hoặc nhiều page
+src 
+->feature -> component -> index.jsx
+                       -> name-c.scss
+          -> page   -> home
+                    -> post deitail
+          -> index.jsx

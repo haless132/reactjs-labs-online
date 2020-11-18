@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '../Box';
+import './BoxList.scss';
 
 BoxList.propTypes = {
   boxList: PropTypes.array,
@@ -14,7 +15,7 @@ function BoxList({ boxList }) {
     <ul className="box-list">
       {boxList.map((box) => (
         <li key={box.luckyNumber}>
-          <Box color={box.color} luckyNumber={box.luckyNumber} />
+          <Box color={box.color} luckyNumber={box.luckyNumber} size={box.size} />
         </li>
       ))}
     </ul>
